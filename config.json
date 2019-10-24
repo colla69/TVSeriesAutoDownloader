@@ -1,0 +1,47 @@
+{
+	"outpath": "/run/media/cola/Transfer/PlexContent/tvshows/",
+	"watchseries_link": "",
+	"done_command": "",
+	"series": [
+		{
+		"name" : "The Big Bang Theory",
+		"linkpart": "big_bang_theory",
+		"no": [12]
+		},
+		{
+		"name" : "Young Sheldon",
+		"linkpart": "young_sheldon",
+		"no": [3]
+		},
+		{
+		"name" : "The Walking Dead",
+		"linkpart": "The_Walking_Dead_%282011%29",
+		"no": [10,9]
+		},
+		{
+		"name" : "The Flash (2014)",
+		"linkpart": "the_flash_2014_",
+		"no": [6]
+		},
+		{
+		"name" : "Supernatural",
+		"linkpart": "supernatural",
+		"no": [15]
+		},
+		{
+		"name" : "The Good Doctor",
+		"linkpart": "the_good_doctor",
+		"no": [2,3]
+		},
+		{
+		"name" : "Mr Robot",
+		"linkpart": "mr_robot",
+		"no": [4]
+		},
+		{
+		"name" : "The Simpsons",
+		"linkpart": "the_simpsons",
+		"no": [30,31]
+		}
+	]
+}

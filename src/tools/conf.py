@@ -3,6 +3,10 @@ from src.model.Serie_data import Serie
 from src.tools.serie_handler import search_episodes
 
 
+conf_path = "./"
+json_name = "config.json"
+
+
 def get_out_path():
     conf = load_config()
     if conf:
@@ -22,3 +26,14 @@ def load_todo_list():
                 ser = Serie(sno, sepis, sname)
                 res.append(ser)
     return res
+
+
+def load_config():
+    if not os.path.exists(conf_path):
+        os.mkdir(conf_path)
+    try:
+        conf = json_load(conf_path+json_name)
+    except Exception as e:
+        print(e)
+        conf = None
+    return conf
