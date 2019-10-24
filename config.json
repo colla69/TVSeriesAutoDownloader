@@ -1,7 +1,7 @@
 {
 	"outpath": "/run/media/cola/Transfer/PlexContent/tvshows/",
-	"watchseries_link": "",
-	"done_command": "",
+	"watchseries_link": "https://www1.swatchseries.to/",
+	"done_command": "/run/media/cola/Transfer/PlexContent/syncTvShows",
 	"series": [
 		{
 		"name" : "The Big Bang Theory",
